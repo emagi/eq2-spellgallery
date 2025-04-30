@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EQ2 Spell Visual Gallery (DoF Version)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f9f9f9;
+      --card-bg: #ffffff;
+      --text: #333333;
+      --accent: #4a90e2;
+      --hint: #777777;
+      --shadow: rgba(0, 0, 0, 0.1);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      padding: 1rem;
+      line-height: 1.5;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    #search {
+      width: 100%;
+      max-width: 400px;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1.5rem;
+      box-shadow: inset 0 1px 3px var(--shadow);
+      transition: border-color 0.2s;
+    }
+    #search:focus { outline: none; border-color: var(--accent); }
+
+    /* 5 columns gallery, top-aligned */
+    #spell-list {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 1rem;
+      align-items: start;
+    }
+    @media (max-width: 900px) { #spell-list { grid-template-columns: repeat(3,1fr); } }
+    @media (max-width: 600px) { #spell-list { grid-template-columns: repeat(2,1fr); } }
+
+    .spell-entry {
+      background: var(--card-bg);
+      border-radius: 8px;
+      box-shadow: 0 2px 8px var(--shadow);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .spell-entry:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+
+    .video-placeholder,
+    .video-container,
+    .no-preview {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      overflow: hidden;
+    }
+    .video-placeholder::after {
+      content: 'Loading…';
+      color: #fff;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0.8rem;
+    }
+    .no-preview {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #444;
+    }
+    .no-preview div {
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    .spell-entry video {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .spell-entry h3 {
+      padding: 0.75rem 1rem 0.5rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-align: center;
+      word-break: break-word;
+    }
+    .hint {
+      padding: 0 1rem 0.75rem;
+      font-size: 0.8rem;
+      color: var(--hint);
+    }
+
+    /* Modal overlay */
+    #video-modal {
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.85);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    #video-modal.show { display: flex; }
+    #video-modal video {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 8px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <h1>EQ2 Spell Visual Gallery (DoF Version)</h1>
+  <input id="search" type="text" placeholder="Search by spell name…" aria-label="Search spells">
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch(err => console.error('SW registration failed:', err));
+  }
+</script>
+
+  <div id="spell-list">Loading…</div>
+  <div id="video-modal"></div>
+
+  <script>
+  (function(){
+    let spells = [];
+    const modal = document.getElementById('video-modal');
+    modal.addEventListener('click', () => {
+      modal.classList.remove('show');
+      modal.innerHTML = '';
+    });
+    function openModal(src) {
+      modal.innerHTML = `<video controls autoplay src="${src}"></video>`;
+      modal.classList.add('show');
+    }
+
+    const MAX_CONCURRENT = 3;
+    let active = 0, queue = [];
+
+    function enqueue(container) {
+      if (container.dataset.loading || container.dataset.loaded) return;
+      container.dataset.loading = '1';
+      queue.push(container);
+      processQueue();
+    }
+    function processQueue() {
+      if (active >= MAX_CONCURRENT || !queue.length) return;
+      const container = queue.shift(); active++;
+      loadThumbnail(container).finally(() => {
+        active--;
+        processQueue();
+      });
+    }
+    // Unload when scrolled out of view
+    function unloadThumbnail(container) {
+      if (!container.dataset.loaded) return;
+      const video = container.querySelector('video');
+      if (video) {
+        video.pause();
+      }
+      container.classList.remove('video-container');
+      container.classList.add('video-placeholder');
+      delete container.dataset.loaded;
+    }
+    function loadThumbnail(container) {
+      return new Promise(res => {
+        const thumb = container.dataset.thumbSrc;
+        const full  = container.dataset.fullSrc;
+        const vid = document.createElement('video');
+        vid.muted = true; vid.autoplay = true; vid.loop = true;
+        vid.preload = 'metadata'; vid.src = thumb;
+        vid.title = 'Click to expand';
+
+        vid.addEventListener('loadeddata', () => {
+          container.dataset.loaded = '1';
+          delete container.dataset.loading;
+          res();
+        });
+        vid.addEventListener('error', () => {
+          container.dataset.loaded = '1';
+          delete container.dataset.loading;
+          container.classList.remove('video-placeholder');
+          container.classList.add('no-preview');
+          container.innerHTML = '<div>No preview</div>';
+          res();
+        });
+        vid.addEventListener('click', () => openModal(full));
+
+        container.classList.remove('video-placeholder');
+        container.classList.add('video-container');
+        container.innerHTML = '';
+        container.appendChild(vid);
+      });
+    }
+	
+	function debounce(fn, wait) {
+	  let timer;
+	  return function(...args) {
+		clearTimeout(timer);
+		timer = setTimeout(() => fn.apply(this, args), wait);
+	  };
+	}
+	function handleIntersections(entries) {
+	      entries.forEach(entry => {
+        const c = entry.target;
+        if (entry.isIntersecting) {
+          enqueue(c);
+          const vid = c.querySelector('video');
+          if (vid) vid.play();
+        } else {
+          unloadThumbnail(c);
+        }
+      });
+	 }
+    const LOAD_DELAY = 1;            // ms
+    const debouncedHandler = debounce(handleIntersections, LOAD_DELAY);
+	const observer = new IntersectionObserver(debouncedHandler, {
+	rootMargin: '0px'
+	});
+    function render(q = '') {
+      const list = document.getElementById('spell-list');
+      list.innerHTML = '';
+      const filtered = spells.filter(s =>
+        !q || s.name.toLowerCase().includes(q)
+      );
+      if (!filtered.length) {
+        list.textContent = 'No spells match.';
+        return;
+      }
+      filtered.forEach(({id, name}) => {
+        const thumb = `spells_thumbnails/${id}_thumbnail.mp4`;
+        const full  = `spells/${id}.mp4`;
+        const card = document.createElement('div');
+        card.className = 'spell-entry';
+        card.innerHTML = `
+          <h3>${id}: ${name.replace(/_/g,' ')}</h3>
+          <div class="video-placeholder"
+               data-thumb-src="${thumb}"
+               data-full-src="${full}"></div>
+        `;
+        list.appendChild(card);
+        observer.observe(card.querySelector('.video-placeholder'));
+      });
+    }
+
+    fetch('dof_spellvisuals.json')
+      .then(r => r.json())
+      .then(data => {
+        spells = data;
+        document.getElementById('spell-list').textContent = '';
+        render();
+        document.getElementById('search')
+          .addEventListener('input', e => render(e.target.value.trim().toLowerCase()));
+      })
+      .catch(err => {
+        document.getElementById('spell-list').textContent = 'Failed to load spell list.';
+        console.error(err);
+      });
+  })();
+  </script>
+</body>
+</html>

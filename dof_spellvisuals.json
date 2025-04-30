@@ -1,0 +1,3794 @@
+[
+  {
+    "id": 1,
+    "name": "test/test_default"
+  },
+  {
+    "id": 2,
+    "name": "test/test_loot"
+  },
+  {
+    "id": 3,
+    "name": "test/test_spawn"
+  },
+  {
+    "id": 4,
+    "name": "test/test1"
+  },
+  {
+    "id": 5,
+    "name": "test/test2"
+  },
+  {
+    "id": 6,
+    "name": "test/test3"
+  },
+  {
+    "id": 13,
+    "name": "priest/buff_limbs"
+  },
+  {
+    "id": 14,
+    "name": "priest/heal_ball"
+  },
+  {
+    "id": 15,
+    "name": "priest/root"
+  },
+  {
+    "id": 16,
+    "name": "mage/heal_rune_blur"
+  },
+  {
+    "id": 17,
+    "name": "mage/heal_rune_randomorbits"
+  },
+  {
+    "id": 18,
+    "name": "mage/nuke_lightning"
+  },
+  {
+    "id": 19,
+    "name": "mage/heal_runedraw"
+  },
+  {
+    "id": 20,
+    "name": "priest/druid/firequench"
+  },
+  {
+    "id": 21,
+    "name": "mage/group_manashield"
+  },
+  {
+    "id": 22,
+    "name": "priest/aggro2"
+  },
+  {
+    "id": 23,
+    "name": "priest/resurrect"
+  },
+  {
+    "id": 24,
+    "name": "priest/shaman/mystic/ursine"
+  },
+  {
+    "id": 25,
+    "name": "test/test_combat_demo"
+  },
+  {
+    "id": 26,
+    "name": "mage/lightning_burst"
+  },
+  {
+    "id": 35,
+    "name": "test/test_default_and_persist"
+  },
+  {
+    "id": 37,
+    "name": "mage/lightning_burst2"
+  },
+  {
+    "id": 41,
+    "name": "scout/sneak"
+  },
+  {
+    "id": 42,
+    "name": "priest/spirit_of_the_wolf"
+  },
+  {
+    "id": 46,
+    "name": "fighter/kick"
+  },
+  {
+    "id": 47,
+    "name": "priest/phoenix"
+  },
+  {
+    "id": 48,
+    "name": "priest/phoenix_descending"
+  },
+  {
+    "id": 50,
+    "name": "fighter/charge"
+  },
+  {
+    "id": 51,
+    "name": "fighter/wild_swing"
+  },
+  {
+    "id": 52,
+    "name": "priest/ethereal_mending"
+  },
+  {
+    "id": 53,
+    "name": "priest/ethereal_salve"
+  },
+  {
+    "id": 54,
+    "name": "priest/ghost_shield"
+  },
+  {
+    "id": 55,
+    "name": "scout/ambush"
+  },
+  {
+    "id": 56,
+    "name": "mage/nuke_lightning_result"
+  },
+  {
+    "id": 57,
+    "name": "priest/ethereal_mending_result"
+  },
+  {
+    "id": 58,
+    "name": "priest/ethereal_salve_result"
+  },
+  {
+    "id": 59,
+    "name": "priest/phoenix_descending_result"
+  },
+  {
+    "id": 60,
+    "name": "priest/rekindle_life"
+  },
+  {
+    "id": 61,
+    "name": "fighter/taunt"
+  },
+  {
+    "id": 62,
+    "name": "priest/crystal_shield"
+  },
+  {
+    "id": 63,
+    "name": "priest/smite"
+  },
+  {
+    "id": 64,
+    "name": "priest/horse_running"
+  },
+  {
+    "id": 65,
+    "name": "priest/lion_attacking"
+  },
+  {
+    "id": 66,
+    "name": "priest/lion_roaring"
+  },
+  {
+    "id": 67,
+    "name": "test/default_result"
+  },
+  {
+    "id": 68,
+    "name": "test/default_result_persist"
+  },
+  {
+    "id": 69,
+    "name": "npc/nightbloodwarrior/fire_from_below"
+  },
+  {
+    "id": 70,
+    "name": "npc/venekor/venekor's_poison_breath"
+  },
+  {
+    "id": 71,
+    "name": "mage/purple_lightning_bolt"
+  },
+  {
+    "id": 72,
+    "name": "fighter/knockdown"
+  },
+  {
+    "id": 73,
+    "name": "mage/teleporter_coalesce"
+  },
+  {
+    "id": 74,
+    "name": "npc/venekor/venekors_poison_breath"
+  },
+  {
+    "id": 75,
+    "name": "priest/snake_attacking"
+  },
+  {
+    "id": 76,
+    "name": "npc/demo_knockedoffbridge"
+  },
+  {
+    "id": 78,
+    "name": "mage/fire_slam"
+  },
+  {
+    "id": 79,
+    "name": "npc/test"
+  },
+  {
+    "id": 80,
+    "name": "priest/root_colored"
+  },
+  {
+    "id": 81,
+    "name": "npc/venekor/venekors_wing_dust"
+  },
+  {
+    "id": 82,
+    "name": "npc/venekor/venekors_fire_breath"
+  },
+  {
+    "id": 83,
+    "name": "npc/venekor/venekors_winged_fire"
+  },
+  {
+    "id": 84,
+    "name": "priest/bull_stomping"
+  },
+  {
+    "id": 85,
+    "name": "mage/ethereal_salve"
+  },
+  {
+    "id": 89,
+    "name": "any/lightning_mishap"
+  },
+  {
+    "id": 90,
+    "name": "fighter/shield_shove"
+  },
+  {
+    "id": 91,
+    "name": "fighter/whirling_attack"
+  },
+  {
+    "id": 92,
+    "name": "npc/venekor/venekors_wing_dust_alt"
+  },
+  {
+    "id": 93,
+    "name": "expansion_07/alternate_advancement/crusader_manawall"
+  },
+  {
+    "id": 94,
+    "name": "npc/venekor/venekors_poison_breath_alt"
+  },
+  {
+    "id": 95,
+    "name": "mage/fade"
+  },
+  {
+    "id": 96,
+    "name": "priest/cactus_01"
+  },
+  {
+    "id": 97,
+    "name": "priest/cactus_02"
+  },
+  {
+    "id": 98,
+    "name": "priest/cat_leaping"
+  },
+  {
+    "id": 99,
+    "name": "priest/tangling_roots"
+  },
+  {
+    "id": 100,
+    "name": "priest/teleport_appear"
+  },
+  {
+    "id": 101,
+    "name": "priest/teleport_vanish"
+  },
+  {
+    "id": 102,
+    "name": "priest/tree_morph"
+  },
+  {
+    "id": 103,
+    "name": "priest/wood_spikes_growing"
+  },
+  {
+    "id": 120,
+    "name": "any/feverous_touch"
+  },
+  {
+    "id": 121,
+    "name": "any/flickering_lash"
+  },
+  {
+    "id": 122,
+    "name": "any/freezing_breath"
+  },
+  {
+    "id": 123,
+    "name": "any/watery_respite_1"
+  },
+  {
+    "id": 124,
+    "name": "any/watery_respite_2"
+  },
+  {
+    "id": 125,
+    "name": "any/watery_respite_3"
+  },
+  {
+    "id": 126,
+    "name": "mage/badge_of_energy"
+  },
+  {
+    "id": 127,
+    "name": "mage/enthralling_fetters"
+  },
+  {
+    "id": 128,
+    "name": "mage/frost_spike"
+  },
+  {
+    "id": 129,
+    "name": "mage/glacial_wall"
+  },
+  {
+    "id": 130,
+    "name": "mage/ice_comet"
+  },
+  {
+    "id": 131,
+    "name": "mage/icy_cage"
+  },
+  {
+    "id": 132,
+    "name": "mage/intelligence"
+  },
+  {
+    "id": 133,
+    "name": "priest/skin_of_clay"
+  },
+  {
+    "id": 134,
+    "name": "npc/knock_to_back_result"
+  },
+  {
+    "id": 135,
+    "name": "npc/knock_to_knee_result"
+  },
+  {
+    "id": 136,
+    "name": "priest/sanctify"
+  },
+  {
+    "id": 137,
+    "name": "priest/treat_toxin"
+  },
+  {
+    "id": 138,
+    "name": "priest/bestowal_of_vitae"
+  },
+  {
+    "id": 139,
+    "name": "priest/ethereal_ward"
+  },
+  {
+    "id": 140,
+    "name": "scout/startling_screech"
+  },
+  {
+    "id": 141,
+    "name": "priest/fuliginous_sphere"
+  },
+  {
+    "id": 142,
+    "name": "any/force"
+  },
+  {
+    "id": 143,
+    "name": "any/force_yellow_fire"
+  },
+  {
+    "id": 144,
+    "name": "any/venenox"
+  },
+  {
+    "id": 145,
+    "name": "fighter/offering_of_vitae"
+  },
+  {
+    "id": 146,
+    "name": "fighter/offering_of_vitae_2"
+  },
+  {
+    "id": 147,
+    "name": "mage/color_shower"
+  },
+  {
+    "id": 148,
+    "name": "mage/dps_decrease"
+  },
+  {
+    "id": 149,
+    "name": "mage/earthly_brand"
+  },
+  {
+    "id": 150,
+    "name": "mage/volatile_refuge"
+  },
+  {
+    "id": 151,
+    "name": "mage/volatile_refuge_2"
+  },
+  {
+    "id": 152,
+    "name": "priest/scimitar_smite"
+  },
+  {
+    "id": 153,
+    "name": "priest/scimitar_smite_2"
+  },
+  {
+    "id": 154,
+    "name": "priest/verdant_genesis"
+  },
+  {
+    "id": 156,
+    "name": "mage/foul_distortion"
+  },
+  {
+    "id": 157,
+    "name": "mage/haste"
+  },
+  {
+    "id": 158,
+    "name": "mage/tremor"
+  },
+  {
+    "id": 159,
+    "name": "priest/bloodlust"
+  },
+  {
+    "id": 160,
+    "name": "any/backdraft"
+  },
+  {
+    "id": 161,
+    "name": "any/deadly_stench"
+  },
+  {
+    "id": 162,
+    "name": "any/sanction_of_merit"
+  },
+  {
+    "id": 163,
+    "name": "mage/charm"
+  },
+  {
+    "id": 164,
+    "name": "mage/pyrotechnic"
+  },
+  {
+    "id": 165,
+    "name": "mage/tellurian_recruit"
+  },
+  {
+    "id": 166,
+    "name": "priest/weakness"
+  },
+  {
+    "id": 167,
+    "name": "fighter/cry_of_conviction"
+  },
+  {
+    "id": 168,
+    "name": "auras/mage"
+  },
+  {
+    "id": 169,
+    "name": "auras/priest"
+  },
+  {
+    "id": 170,
+    "name": "mage/enthralling_fetters_ghostly"
+  },
+  {
+    "id": 171,
+    "name": "priest/benefaction_of_life"
+  },
+  {
+    "id": 172,
+    "name": "test/test_projectile"
+  },
+  {
+    "id": 173,
+    "name": "scout/stifle"
+  },
+  {
+    "id": 174,
+    "name": "fighter/instant_lifetap"
+  },
+  {
+    "id": 175,
+    "name": "mage/ot_lifetap"
+  },
+  {
+    "id": 176,
+    "name": "any/utility"
+  },
+  {
+    "id": 177,
+    "name": "any/bone_cage_1"
+  },
+  {
+    "id": 178,
+    "name": "any/grim_champion"
+  },
+  {
+    "id": 179,
+    "name": "fighter/decree_of_faith"
+  },
+  {
+    "id": 180,
+    "name": "mage/fascinate"
+  },
+  {
+    "id": 181,
+    "name": "priest/bloodlust_2"
+  },
+  {
+    "id": 183,
+    "name": "mage/shrink"
+  },
+  {
+    "id": 184,
+    "name": "mage/lightning_surge"
+  },
+  {
+    "id": 185,
+    "name": "any/fire_from_below_orange"
+  },
+  {
+    "id": 186,
+    "name": "artisan/metal_bar"
+  },
+  {
+    "id": 187,
+    "name": "artisan/rune_01"
+  },
+  {
+    "id": 188,
+    "name": "artisan/rune_02"
+  },
+  {
+    "id": 189,
+    "name": "artisan/rune_03"
+  },
+  {
+    "id": 190,
+    "name": "artisan/rune_04"
+  },
+  {
+    "id": 191,
+    "name": "artisan/rune_05"
+  },
+  {
+    "id": 192,
+    "name": "artisan/rune_06"
+  },
+  {
+    "id": 193,
+    "name": "artisan/rune_07"
+  },
+  {
+    "id": 194,
+    "name": "artisan/rune_08"
+  },
+  {
+    "id": 199,
+    "name": "artisan/chemistry_blue"
+  },
+  {
+    "id": 200,
+    "name": "artisan/chemistry_gold"
+  },
+  {
+    "id": 201,
+    "name": "artisan/chemistry_green"
+  },
+  {
+    "id": 202,
+    "name": "artisan/chemistry_violet"
+  },
+  {
+    "id": 203,
+    "name": "artisan/forge_blue"
+  },
+  {
+    "id": 204,
+    "name": "artisan/forge_gold"
+  },
+  {
+    "id": 205,
+    "name": "artisan/forge_green"
+  },
+  {
+    "id": 206,
+    "name": "artisan/forge_violet"
+  },
+  {
+    "id": 207,
+    "name": "artisan/planer"
+  },
+  {
+    "id": 208,
+    "name": "artisan/saw"
+  },
+  {
+    "id": 209,
+    "name": "artisan/sewing_blue"
+  },
+  {
+    "id": 210,
+    "name": "artisan/sewing_gold"
+  },
+  {
+    "id": 211,
+    "name": "artisan/sewing_green"
+  },
+  {
+    "id": 212,
+    "name": "artisan/sewing_violet"
+  },
+  {
+    "id": 213,
+    "name": "artisan/stove_blue"
+  },
+  {
+    "id": 214,
+    "name": "artisan/stove_gold"
+  },
+  {
+    "id": 215,
+    "name": "artisan/stove_green"
+  },
+  {
+    "id": 216,
+    "name": "artisan/stove_knives_blue"
+  },
+  {
+    "id": 217,
+    "name": "artisan/stove_knives_gold"
+  },
+  {
+    "id": 218,
+    "name": "artisan/stove_knives_green"
+  },
+  {
+    "id": 219,
+    "name": "artisan/stove_knives_violet"
+  },
+  {
+    "id": 220,
+    "name": "artisan/stove_violet"
+  },
+  {
+    "id": 221,
+    "name": "boss/pbae_cold"
+  },
+  {
+    "id": 222,
+    "name": "boss/pbae_disease"
+  },
+  {
+    "id": 223,
+    "name": "boss/pbae_heat"
+  },
+  {
+    "id": 224,
+    "name": "boss/pbae_mental"
+  },
+  {
+    "id": 225,
+    "name": "boss/pbae_poison"
+  },
+  {
+    "id": 226,
+    "name": "boss/tae_cold"
+  },
+  {
+    "id": 227,
+    "name": "boss/tae_disease"
+  },
+  {
+    "id": 228,
+    "name": "boss/tae_heat"
+  },
+  {
+    "id": 229,
+    "name": "boss/tae_mental"
+  },
+  {
+    "id": 230,
+    "name": "boss/tae_poison"
+  },
+  {
+    "id": 231,
+    "name": "artisan/forge_helmet_gold"
+  },
+  {
+    "id": 232,
+    "name": "priest/utility"
+  },
+  {
+    "id": 233,
+    "name": "artisan/forge_helmet_blue"
+  },
+  {
+    "id": 234,
+    "name": "artisan/forge_helmet_green"
+  },
+  {
+    "id": 235,
+    "name": "artisan/forge_helmet_violet"
+  },
+  {
+    "id": 236,
+    "name": "artisan/forge_metal_rod_blue"
+  },
+  {
+    "id": 237,
+    "name": "artisan/forge_metal_rod_gold"
+  },
+  {
+    "id": 238,
+    "name": "artisan/forge_metal_rod_green"
+  },
+  {
+    "id": 239,
+    "name": "artisan/forge_metal_rod_violet"
+  },
+  {
+    "id": 240,
+    "name": "boss/pbae_divine"
+  },
+  {
+    "id": 241,
+    "name": "boss/pbae_lightning"
+  },
+  {
+    "id": 242,
+    "name": "boss/tae_divine"
+  },
+  {
+    "id": 243,
+    "name": "boss/tae_lightning"
+  },
+  {
+    "id": 244,
+    "name": "artisan/chemistry_molecule_blue"
+  },
+  {
+    "id": 245,
+    "name": "artisan/chemistry_molecule_gold"
+  },
+  {
+    "id": 246,
+    "name": "artisan/chemistry_molecule_green"
+  },
+  {
+    "id": 247,
+    "name": "artisan/chemistry_molecule_violet"
+  },
+  {
+    "id": 248,
+    "name": "artisan/log_cut"
+  },
+  {
+    "id": 249,
+    "name": "fighter/attack_back"
+  },
+  {
+    "id": 250,
+    "name": "fighter/attack_crush_damage"
+  },
+  {
+    "id": 251,
+    "name": "fighter/attack_down_stun"
+  },
+  {
+    "id": 252,
+    "name": "fighter/attack_down_taunt"
+  },
+  {
+    "id": 253,
+    "name": "fighter/attack_forward_damage"
+  },
+  {
+    "id": 254,
+    "name": "fighter/attack_forward_highdamage"
+  },
+  {
+    "id": 255,
+    "name": "fighter/attack_forward_knockdown"
+  },
+  {
+    "id": 256,
+    "name": "fighter/charge_up_anger"
+  },
+  {
+    "id": 257,
+    "name": "fighter/charge_up_defence"
+  },
+  {
+    "id": 258,
+    "name": "fighter/defensive_buff"
+  },
+  {
+    "id": 259,
+    "name": "fighter/defensive_buff_avoidance"
+  },
+  {
+    "id": 260,
+    "name": "fighter/defensive_buff_shielding"
+  },
+  {
+    "id": 261,
+    "name": "fighter/defensive_buff_stealth"
+  },
+  {
+    "id": 262,
+    "name": "fighter/feint_avoidance"
+  },
+  {
+    "id": 263,
+    "name": "fighter/feint_sooth"
+  },
+  {
+    "id": 264,
+    "name": "fighter/kick_damage"
+  },
+  {
+    "id": 265,
+    "name": "fighter/kick_flame"
+  },
+  {
+    "id": 266,
+    "name": "fighter/kick_ice"
+  },
+  {
+    "id": 267,
+    "name": "fighter/kick_knockdown"
+  },
+  {
+    "id": 268,
+    "name": "fighter/offensive_buff_accuracy"
+  },
+  {
+    "id": 269,
+    "name": "fighter/offensive_buff_agility"
+  },
+  {
+    "id": 270,
+    "name": "fighter/offensive_buff_increase"
+  },
+  {
+    "id": 271,
+    "name": "fighter/ranged_attack_fast"
+  },
+  {
+    "id": 272,
+    "name": "fighter/ranged_attack_persist"
+  },
+  {
+    "id": 273,
+    "name": "fighter/super_buff_enrage"
+  },
+  {
+    "id": 274,
+    "name": "fighter/super_buff_group"
+  },
+  {
+    "id": 275,
+    "name": "fighter/taunt_damage"
+  },
+  {
+    "id": 276,
+    "name": "fighter/thrust_forward"
+  },
+  {
+    "id": 277,
+    "name": "fighter/thrust_forward_persist"
+  },
+  {
+    "id": 279,
+    "name": "fighter/whirling_attack_flame"
+  },
+  {
+    "id": 280,
+    "name": "fighter/whirling_attack_taunt"
+  },
+  {
+    "id": 281,
+    "name": "fighter/wildswing"
+  },
+  {
+    "id": 282,
+    "name": "fighter/wildswing_debuff"
+  },
+  {
+    "id": 283,
+    "name": "fighter/wildswing_flame"
+  },
+  {
+    "id": 284,
+    "name": "fighter/wildswing_ice"
+  },
+  {
+    "id": 285,
+    "name": "artisan/sewing_knot_blue"
+  },
+  {
+    "id": 286,
+    "name": "artisan/sewing_knot_gold"
+  },
+  {
+    "id": 287,
+    "name": "artisan/sewing_knot_green"
+  },
+  {
+    "id": 288,
+    "name": "artisan/sewing_knot_violet"
+  },
+  {
+    "id": 289,
+    "name": "fighter/flying_kick_damage"
+  },
+  {
+    "id": 290,
+    "name": "fighter/flying_kick_flame"
+  },
+  {
+    "id": 291,
+    "name": "fighter/flying_kick_ice"
+  },
+  {
+    "id": 292,
+    "name": "fighter/flying_kick_lightning"
+  },
+  {
+    "id": 293,
+    "name": "fighter/whirling_attack_alt"
+  },
+  {
+    "id": 294,
+    "name": "persist/persist_divine"
+  },
+  {
+    "id": 295,
+    "name": "persist/persist_energy"
+  },
+  {
+    "id": 296,
+    "name": "persist/persist_fire"
+  },
+  {
+    "id": 297,
+    "name": "persist/persist_ice"
+  },
+  {
+    "id": 298,
+    "name": "persist/persist_mental"
+  },
+  {
+    "id": 299,
+    "name": "persist/persist_mesmerize"
+  },
+  {
+    "id": 300,
+    "name": "persist/persist_poison"
+  },
+  {
+    "id": 301,
+    "name": "persist/persist_stunned"
+  },
+  {
+    "id": 302,
+    "name": "priest/brace_eidolon"
+  },
+  {
+    "id": 303,
+    "name": "any/impart_essence"
+  },
+  {
+    "id": 304,
+    "name": "any/rally_essence"
+  },
+  {
+    "id": 305,
+    "name": "persist/persist_stone"
+  },
+  {
+    "id": 306,
+    "name": "scout/ballad_of_chivalry"
+  },
+  {
+    "id": 307,
+    "name": "scout/drumming"
+  },
+  {
+    "id": 308,
+    "name": "scout/rousing_tune"
+  },
+  {
+    "id": 309,
+    "name": "fighter/defensive_debuff"
+  },
+  {
+    "id": 310,
+    "name": "fighter/multiple_attack"
+  },
+  {
+    "id": 311,
+    "name": "fighter/escape_combat"
+  },
+  {
+    "id": 312,
+    "name": "fighter/heal_target"
+  },
+  {
+    "id": 313,
+    "name": "scout/cry_conviction"
+  },
+  {
+    "id": 314,
+    "name": "fighter/beg_for_mercy"
+  },
+  {
+    "id": 315,
+    "name": "fighter/dragon_stance"
+  },
+  {
+    "id": 316,
+    "name": "fighter/spider_stance"
+  },
+  {
+    "id": 317,
+    "name": "scout/cry_conviction_projectile"
+  },
+  {
+    "id": 318,
+    "name": "scout/cry_conviction_wave_projectile"
+  },
+  {
+    "id": 319,
+    "name": "mage/nuke_lightning_projectile"
+  },
+  {
+    "id": 320,
+    "name": "any/deadly_stench_projectile"
+  },
+  {
+    "id": 321,
+    "name": "mage/psychic_wail_projectile"
+  },
+  {
+    "id": 322,
+    "name": "any/levelup"
+  },
+  {
+    "id": 323,
+    "name": "any/levelup_50"
+  },
+  {
+    "id": 324,
+    "name": "any/levelup_hallmark"
+  },
+  {
+    "id": 325,
+    "name": "fighter/multiple_attack_02"
+  },
+  {
+    "id": 326,
+    "name": "fighter/multiple_attack_03"
+  },
+  {
+    "id": 327,
+    "name": "fighter/multiple_attack_04"
+  },
+  {
+    "id": 328,
+    "name": "mage/fire_ball_projectile"
+  },
+  {
+    "id": 329,
+    "name": "mage/fire_ball_projectile_blue"
+  },
+  {
+    "id": 330,
+    "name": "mage/fire_ball_projectile_green"
+  },
+  {
+    "id": 331,
+    "name": "mage/fire_ball_projectile_purple"
+  },
+  {
+    "id": 332,
+    "name": "any/levelup_mini"
+  },
+  {
+    "id": 333,
+    "name": "mage/fire_ball_projectile_2"
+  },
+  {
+    "id": 334,
+    "name": "mage/fire_ball_projectile_3"
+  },
+  {
+    "id": 335,
+    "name": "mage/fire_ball_projectile_blue_2"
+  },
+  {
+    "id": 336,
+    "name": "mage/fire_ball_projectile_blue_3"
+  },
+  {
+    "id": 337,
+    "name": "mage/fire_ball_projectile_green_2"
+  },
+  {
+    "id": 338,
+    "name": "mage/fire_ball_projectile_green_3"
+  },
+  {
+    "id": 339,
+    "name": "mage/fire_ball_projectile_purple_2"
+  },
+  {
+    "id": 340,
+    "name": "mage/fire_ball_projectile_purple_3"
+  },
+  {
+    "id": 341,
+    "name": "fighter/attack_back_alt"
+  },
+  {
+    "id": 342,
+    "name": "fighter/attack_back_flame"
+  },
+  {
+    "id": 343,
+    "name": "fighter/attack_back_highdamage"
+  },
+  {
+    "id": 344,
+    "name": "fighter/attack_back_ice"
+  },
+  {
+    "id": 345,
+    "name": "fighter/attack_crush_alt"
+  },
+  {
+    "id": 346,
+    "name": "fighter/attack_crush_highdamage"
+  },
+  {
+    "id": 347,
+    "name": "fighter/attack_crush_knockdown"
+  },
+  {
+    "id": 348,
+    "name": "fighter/attack_down_damage"
+  },
+  {
+    "id": 349,
+    "name": "fighter/attack_down_damage_alt"
+  },
+  {
+    "id": 350,
+    "name": "fighter/attack_down_highdamage"
+  },
+  {
+    "id": 351,
+    "name": "fighter/attack_forward_damage_alt"
+  },
+  {
+    "id": 352,
+    "name": "fighter/attack_forward_damage_persist"
+  },
+  {
+    "id": 353,
+    "name": "fighter/attack_forward_defense_persist"
+  },
+  {
+    "id": 354,
+    "name": "fighter/attack_forward_offense_persist"
+  },
+  {
+    "id": 355,
+    "name": "fighter/charge_up_group"
+  },
+  {
+    "id": 356,
+    "name": "fighter/charge_up_increase"
+  },
+  {
+    "id": 357,
+    "name": "fighter/defensive_buff_increase"
+  },
+  {
+    "id": 358,
+    "name": "fighter/flying_kick_damage_alt"
+  },
+  {
+    "id": 359,
+    "name": "fighter/flying_kick_highdamage"
+  },
+  {
+    "id": 360,
+    "name": "fighter/flying_kick_stun"
+  },
+  {
+    "id": 361,
+    "name": "fighter/kick_damage_alt"
+  },
+  {
+    "id": 362,
+    "name": "fighter/kick_highdamage"
+  },
+  {
+    "id": 363,
+    "name": "fighter/multiple_attack_02_alt"
+  },
+  {
+    "id": 364,
+    "name": "fighter/ranged_attack_persist2"
+  },
+  {
+    "id": 365,
+    "name": "fighter/ranged_attack_throw_2x"
+  },
+  {
+    "id": 366,
+    "name": "fighter/ranged_attack_throw_fast"
+  },
+  {
+    "id": 367,
+    "name": "fighter/ranged_attack_throw_persist"
+  },
+  {
+    "id": 368,
+    "name": "fighter/shield_shove_knockdown"
+  },
+  {
+    "id": 369,
+    "name": "fighter/shield_shove_persist"
+  },
+  {
+    "id": 370,
+    "name": "fighter/shield_shove_stun"
+  },
+  {
+    "id": 371,
+    "name": "fighter/super_buff_increase"
+  },
+  {
+    "id": 372,
+    "name": "fighter/thrust_forward_knockdown"
+  },
+  {
+    "id": 373,
+    "name": "fighter/thrust_forward_sooth"
+  },
+  {
+    "id": 374,
+    "name": "fighter/whirling_attack_damage"
+  },
+  {
+    "id": 375,
+    "name": "fighter/whirling_attack_highdamage"
+  },
+  {
+    "id": 376,
+    "name": "fighter/wildswing_highdamage"
+  },
+  {
+    "id": 377,
+    "name": "fighter/attack_back_lifetap"
+  },
+  {
+    "id": 378,
+    "name": "fighter/attack_crush_lifetap"
+  },
+  {
+    "id": 379,
+    "name": "fighter/attack_down_lifetap"
+  },
+  {
+    "id": 380,
+    "name": "fighter/attack_forward_lifetap"
+  },
+  {
+    "id": 381,
+    "name": "fighter/flying_kick_lifetap"
+  },
+  {
+    "id": 382,
+    "name": "fighter/kick_lifetap"
+  },
+  {
+    "id": 383,
+    "name": "fighter/multiple_attack_02_lifetap"
+  },
+  {
+    "id": 384,
+    "name": "fighter/multiple_attack_04_alt"
+  },
+  {
+    "id": 385,
+    "name": "fighter/multiple_attack_04_highdamage"
+  },
+  {
+    "id": 386,
+    "name": "fighter/ranged_attack_fast_highdamage"
+  },
+  {
+    "id": 387,
+    "name": "fighter/ranged_attack_persist_highdamage"
+  },
+  {
+    "id": 388,
+    "name": "fighter/shield_shove_alt"
+  },
+  {
+    "id": 389,
+    "name": "fighter/shield_shove_highdamage"
+  },
+  {
+    "id": 390,
+    "name": "fighter/thrust_forward_alt"
+  },
+  {
+    "id": 391,
+    "name": "fighter/thrust_forward_highdamage"
+  },
+  {
+    "id": 392,
+    "name": "mage/color_rain_damage"
+  },
+  {
+    "id": 393,
+    "name": "mage/haste_distortion"
+  },
+  {
+    "id": 394,
+    "name": "mage/rock_ball_projectile"
+  },
+  {
+    "id": 395,
+    "name": "mage/skull_dark_projectile"
+  },
+  {
+    "id": 396,
+    "name": "priest/evil_resurrection"
+  },
+  {
+    "id": 397,
+    "name": "fighter/attack_back_debuff"
+  },
+  {
+    "id": 398,
+    "name": "fighter/attack_back_knockdown"
+  },
+  {
+    "id": 399,
+    "name": "fighter/attack_back_persist"
+  },
+  {
+    "id": 400,
+    "name": "fighter/attack_back_stun"
+  },
+  {
+    "id": 401,
+    "name": "fighter/attack_crush_debuff"
+  },
+  {
+    "id": 402,
+    "name": "fighter/attack_crush_persist"
+  },
+  {
+    "id": 403,
+    "name": "fighter/attack_crush_stun"
+  },
+  {
+    "id": 404,
+    "name": "fighter/attack_down_debuff"
+  },
+  {
+    "id": 405,
+    "name": "fighter/attack_down_knockdown"
+  },
+  {
+    "id": 406,
+    "name": "fighter/attack_down_persist"
+  },
+  {
+    "id": 407,
+    "name": "fighter/attack_forward_debuff"
+  },
+  {
+    "id": 408,
+    "name": "fighter/attack_forward_stun"
+  },
+  {
+    "id": 409,
+    "name": "fighter/defensive_buff_evil"
+  },
+  {
+    "id": 410,
+    "name": "fighter/flying_kick_debuff"
+  },
+  {
+    "id": 411,
+    "name": "fighter/flying_kick_knockdown"
+  },
+  {
+    "id": 412,
+    "name": "fighter/flying_kick_persist"
+  },
+  {
+    "id": 413,
+    "name": "fighter/kick_debuff"
+  },
+  {
+    "id": 414,
+    "name": "fighter/kick_persist"
+  },
+  {
+    "id": 415,
+    "name": "fighter/kick_stun"
+  },
+  {
+    "id": 416,
+    "name": "fighter/multiple_attack_02_debuff"
+  },
+  {
+    "id": 417,
+    "name": "fighter/multiple_attack_02_knockdown"
+  },
+  {
+    "id": 418,
+    "name": "fighter/multiple_attack_02_persist"
+  },
+  {
+    "id": 419,
+    "name": "fighter/multiple_attack_02_stun"
+  },
+  {
+    "id": 420,
+    "name": "fighter/multiple_attack_03_alt"
+  },
+  {
+    "id": 421,
+    "name": "fighter/multiple_attack_03_debuff"
+  },
+  {
+    "id": 422,
+    "name": "fighter/multiple_attack_03_knockdown"
+  },
+  {
+    "id": 423,
+    "name": "fighter/multiple_attack_03_knocktoknees"
+  },
+  {
+    "id": 424,
+    "name": "fighter/multiple_attack_03_lifetap"
+  },
+  {
+    "id": 425,
+    "name": "fighter/multiple_attack_03_persist"
+  },
+  {
+    "id": 426,
+    "name": "fighter/multiple_attack_03_stun"
+  },
+  {
+    "id": 427,
+    "name": "fighter/multiple_attack_04_debuff"
+  },
+  {
+    "id": 428,
+    "name": "fighter/multiple_attack_04_knockdown"
+  },
+  {
+    "id": 429,
+    "name": "fighter/multiple_attack_04_knocktoknees"
+  },
+  {
+    "id": 430,
+    "name": "fighter/multiple_attack_04_lifetap"
+  },
+  {
+    "id": 431,
+    "name": "fighter/multiple_attack_04_stun"
+  },
+  {
+    "id": 432,
+    "name": "fighter/ranged_attack_fast_debuff"
+  },
+  {
+    "id": 433,
+    "name": "fighter/ranged_attack_fast_knockdown"
+  },
+  {
+    "id": 434,
+    "name": "fighter/ranged_attack_fast_persist_knockdown"
+  },
+  {
+    "id": 435,
+    "name": "fighter/ranged_attack_fast_stun"
+  },
+  {
+    "id": 436,
+    "name": "fighter/ranged_attack_persist_debuff"
+  },
+  {
+    "id": 437,
+    "name": "fighter/ranged_attack_persist_lifetap"
+  },
+  {
+    "id": 438,
+    "name": "fighter/ranged_attack_persist_stun"
+  },
+  {
+    "id": 439,
+    "name": "fighter/shield_shove_debuff"
+  },
+  {
+    "id": 440,
+    "name": "fighter/shield_shove_lifetap"
+  },
+  {
+    "id": 441,
+    "name": "fighter/super_buff_evil"
+  },
+  {
+    "id": 442,
+    "name": "fighter/thrust_forward_debuff"
+  },
+  {
+    "id": 443,
+    "name": "fighter/thrust_forward_lifetap"
+  },
+  {
+    "id": 444,
+    "name": "fighter/thrust_forward_stun"
+  },
+  {
+    "id": 445,
+    "name": "fighter/whirling_attack_debuff"
+  },
+  {
+    "id": 446,
+    "name": "fighter/whirling_attack_knockdown"
+  },
+  {
+    "id": 447,
+    "name": "fighter/whirling_attack_lifetap"
+  },
+  {
+    "id": 448,
+    "name": "fighter/whirling_attack_persist"
+  },
+  {
+    "id": 449,
+    "name": "fighter/whirling_attack_stun"
+  },
+  {
+    "id": 450,
+    "name": "fighter/wildswing_knockdown"
+  },
+  {
+    "id": 451,
+    "name": "fighter/wildswing_lifetap"
+  },
+  {
+    "id": 452,
+    "name": "fighter/wildswing_persist"
+  },
+  {
+    "id": 453,
+    "name": "fighter/wildswing_stun"
+  },
+  {
+    "id": 454,
+    "name": "mage/fire_rain_damage"
+  },
+  {
+    "id": 455,
+    "name": "mage/fire_swirl_buff"
+  },
+  {
+    "id": 456,
+    "name": "mage/icicle_rain_damage"
+  },
+  {
+    "id": 457,
+    "name": "mage/lightning_swirl_buff"
+  },
+  {
+    "id": 458,
+    "name": "mage/noxious_oozing_shield_buff"
+  },
+  {
+    "id": 459,
+    "name": "mage/poison_rain_damage"
+  },
+  {
+    "id": 460,
+    "name": "mage/skull_breath_poison_damage"
+  },
+  {
+    "id": 461,
+    "name": "priest/bloodlust_3"
+  },
+  {
+    "id": 462,
+    "name": "priest/resurrect_nature"
+  },
+  {
+    "id": 463,
+    "name": "priest/resurrect_spirit"
+  },
+  {
+    "id": 464,
+    "name": "priest/vines_root_control"
+  },
+  {
+    "id": 465,
+    "name": "fighter/attack_back_lightning"
+  },
+  {
+    "id": 466,
+    "name": "fighter/attack_back_notes"
+  },
+  {
+    "id": 467,
+    "name": "fighter/attack_back_sooth"
+  },
+  {
+    "id": 468,
+    "name": "fighter/attack_back_taunt"
+  },
+  {
+    "id": 469,
+    "name": "fighter/attack_crush_flame"
+  },
+  {
+    "id": 470,
+    "name": "fighter/attack_crush_ice"
+  },
+  {
+    "id": 471,
+    "name": "fighter/attack_crush_knocktoknees"
+  },
+  {
+    "id": 472,
+    "name": "fighter/attack_crush_lightning"
+  },
+  {
+    "id": 473,
+    "name": "fighter/attack_crush_notes"
+  },
+  {
+    "id": 474,
+    "name": "fighter/attack_crush_sooth"
+  },
+  {
+    "id": 475,
+    "name": "fighter/attack_crush_taunt"
+  },
+  {
+    "id": 476,
+    "name": "fighter/attack_down_flame"
+  },
+  {
+    "id": 477,
+    "name": "fighter/attack_down_ice"
+  },
+  {
+    "id": 478,
+    "name": "fighter/attack_down_lightning"
+  },
+  {
+    "id": 479,
+    "name": "fighter/attack_down_notes"
+  },
+  {
+    "id": 480,
+    "name": "fighter/attack_down_sooth"
+  },
+  {
+    "id": 481,
+    "name": "fighter/attack_forward_flame"
+  },
+  {
+    "id": 482,
+    "name": "fighter/attack_forward_ice"
+  },
+  {
+    "id": 483,
+    "name": "fighter/attack_forward_lightning"
+  },
+  {
+    "id": 484,
+    "name": "fighter/attack_forward_notes"
+  },
+  {
+    "id": 485,
+    "name": "fighter/attack_forward_taunt"
+  },
+  {
+    "id": 486,
+    "name": "fighter/defensive_buff_accuracy"
+  },
+  {
+    "id": 487,
+    "name": "fighter/defensive_buff_notes"
+  },
+  {
+    "id": 488,
+    "name": "fighter/flying_kick_knocktoknees"
+  },
+  {
+    "id": 489,
+    "name": "fighter/flying_kick_notes"
+  },
+  {
+    "id": 490,
+    "name": "fighter/kick_notes"
+  },
+  {
+    "id": 491,
+    "name": "fighter/multiple_attack_02_highdamage"
+  },
+  {
+    "id": 492,
+    "name": "fighter/multiple_attack_02_ice"
+  },
+  {
+    "id": 493,
+    "name": "fighter/multiple_attack_02_knocktoknees"
+  },
+  {
+    "id": 494,
+    "name": "fighter/multiple_attack_02_notes"
+  },
+  {
+    "id": 495,
+    "name": "fighter/multiple_attack_03_highdamage"
+  },
+  {
+    "id": 496,
+    "name": "fighter/multiple_attack_03_ice"
+  },
+  {
+    "id": 497,
+    "name": "fighter/multiple_attack_03_notes"
+  },
+  {
+    "id": 498,
+    "name": "fighter/multiple_attack_04_notes"
+  },
+  {
+    "id": 499,
+    "name": "fighter/offensive_buff_group"
+  },
+  {
+    "id": 500,
+    "name": "fighter/offensive_buff_lightning"
+  },
+  {
+    "id": 501,
+    "name": "fighter/ranged_attack_fast_notes"
+  },
+  {
+    "id": 502,
+    "name": "fighter/ranged_attack_fast_taunt"
+  },
+  {
+    "id": 503,
+    "name": "fighter/ranged_attack_persist_notes"
+  },
+  {
+    "id": 504,
+    "name": "fighter/result_highdamage"
+  },
+  {
+    "id": 505,
+    "name": "fighter/result_knockdown"
+  },
+  {
+    "id": 506,
+    "name": "fighter/result_lightning"
+  },
+  {
+    "id": 507,
+    "name": "fighter/shield_shove_knocktoknees"
+  },
+  {
+    "id": 508,
+    "name": "fighter/shield_shove_notes"
+  },
+  {
+    "id": 509,
+    "name": "fighter/shield_shove_taunt"
+  },
+  {
+    "id": 510,
+    "name": "fighter/super_buff_notes"
+  },
+  {
+    "id": 511,
+    "name": "fighter/thrust_forward_knocktoknees"
+  },
+  {
+    "id": 512,
+    "name": "fighter/thrust_forward_notes"
+  },
+  {
+    "id": 513,
+    "name": "fighter/whirling_attack_knocktoknees"
+  },
+  {
+    "id": 514,
+    "name": "fighter/whirling_attack_notes"
+  },
+  {
+    "id": 515,
+    "name": "fighter/wildswing_notes"
+  },
+  {
+    "id": 516,
+    "name": "mage/darkness_skull_buff"
+  },
+  {
+    "id": 517,
+    "name": "mage/petrify_stun_control"
+  },
+  {
+    "id": 518,
+    "name": "mage/shadow_summon"
+  },
+  {
+    "id": 519,
+    "name": "mage/sword_rain_damage"
+  },
+  {
+    "id": 520,
+    "name": "mage/zombie_summon"
+  },
+  {
+    "id": 521,
+    "name": "fighter/defensive_buff_agility"
+  },
+  {
+    "id": 522,
+    "name": "fighter/kick_lightning"
+  },
+  {
+    "id": 523,
+    "name": "fighter/multiple_attack_02_flame"
+  },
+  {
+    "id": 524,
+    "name": "fighter/multiple_attack_02_lightning"
+  },
+  {
+    "id": 525,
+    "name": "fighter/multiple_attack_02_soothe"
+  },
+  {
+    "id": 526,
+    "name": "fighter/multiple_attack_03_lightning"
+  },
+  {
+    "id": 527,
+    "name": "fighter/multiple_attack_03_taunt"
+  },
+  {
+    "id": 528,
+    "name": "fighter/multiple_attack_04_flame"
+  },
+  {
+    "id": 529,
+    "name": "fighter/multiple_attack_04_persist"
+  },
+  {
+    "id": 530,
+    "name": "fighter/multiple_attack_04_soothe"
+  },
+  {
+    "id": 531,
+    "name": "fighter/multiple_attack_04_taunt"
+  },
+  {
+    "id": 532,
+    "name": "fighter/ranged_attack_fast_flame"
+  },
+  {
+    "id": 533,
+    "name": "fighter/ranged_attack_fast_ice"
+  },
+  {
+    "id": 534,
+    "name": "fighter/ranged_attack_fast_knocktoknees"
+  },
+  {
+    "id": 535,
+    "name": "fighter/ranged_attack_fast_lifetap"
+  },
+  {
+    "id": 536,
+    "name": "fighter/ranged_attack_fast_lightning"
+  },
+  {
+    "id": 537,
+    "name": "fighter/ranged_attack_persist_flame"
+  },
+  {
+    "id": 538,
+    "name": "fighter/ranged_attack_persist_knockdown"
+  },
+  {
+    "id": 539,
+    "name": "fighter/ranged_attack_persist_lightning"
+  },
+  {
+    "id": 540,
+    "name": "fighter/result_anger"
+  },
+  {
+    "id": 541,
+    "name": "fighter/result_avoidance"
+  },
+  {
+    "id": 542,
+    "name": "fighter/result_enrage"
+  },
+  {
+    "id": 543,
+    "name": "fighter/result_evil"
+  },
+  {
+    "id": 544,
+    "name": "fighter/result_flame"
+  },
+  {
+    "id": 545,
+    "name": "fighter/result_group"
+  },
+  {
+    "id": 546,
+    "name": "fighter/result_ice"
+  },
+  {
+    "id": 547,
+    "name": "fighter/result_knocktoknees"
+  },
+  {
+    "id": 548,
+    "name": "fighter/result_persist"
+  },
+  {
+    "id": 549,
+    "name": "fighter/result_shielding"
+  },
+  {
+    "id": 550,
+    "name": "fighter/result_soothe"
+  },
+  {
+    "id": 551,
+    "name": "fighter/result_stun"
+  },
+  {
+    "id": 552,
+    "name": "fighter/result_taunt"
+  },
+  {
+    "id": 553,
+    "name": "fighter/shield_shove_lightning"
+  },
+  {
+    "id": 554,
+    "name": "fighter/shield_shove_soothe"
+  },
+  {
+    "id": 555,
+    "name": "fighter/super_buff_accuracy"
+  },
+  {
+    "id": 556,
+    "name": "fighter/super_buff_anger"
+  },
+  {
+    "id": 557,
+    "name": "fighter/super_buff_avoidance"
+  },
+  {
+    "id": 558,
+    "name": "fighter/super_buff_defense"
+  },
+  {
+    "id": 559,
+    "name": "fighter/super_buff_shielding"
+  },
+  {
+    "id": 560,
+    "name": "fighter/thrust_forward_flame"
+  },
+  {
+    "id": 561,
+    "name": "fighter/thrust_forward_ice"
+  },
+  {
+    "id": 562,
+    "name": "fighter/thrust_forward_lightning"
+  },
+  {
+    "id": 563,
+    "name": "fighter/thrust_forward_taunt"
+  },
+  {
+    "id": 564,
+    "name": "fighter/whirling_attack_lightning"
+  },
+  {
+    "id": 565,
+    "name": "fighter/wildswing_lightning"
+  },
+  {
+    "id": 566,
+    "name": "harvesting/fishing"
+  },
+  {
+    "id": 567,
+    "name": "harvesting/forestry"
+  },
+  {
+    "id": 568,
+    "name": "harvesting/gathering"
+  },
+  {
+    "id": 569,
+    "name": "harvesting/mining"
+  },
+  {
+    "id": 570,
+    "name": "harvesting/trapping"
+  },
+  {
+    "id": 571,
+    "name": "mage/air_elemental_summon"
+  },
+  {
+    "id": 572,
+    "name": "priest/arch_heal"
+  },
+  {
+    "id": 573,
+    "name": "priest/fury_regen"
+  },
+  {
+    "id": 574,
+    "name": "priest/vitae_buff_heal"
+  },
+  {
+    "id": 575,
+    "name": "fighter/attack_back_knocktoknees"
+  },
+  {
+    "id": 576,
+    "name": "fighter/attack_back_soothe"
+  },
+  {
+    "id": 577,
+    "name": "fighter/attack_crush_soothe"
+  },
+  {
+    "id": 578,
+    "name": "fighter/attack_down_knocktoknees"
+  },
+  {
+    "id": 579,
+    "name": "fighter/attack_forward_soothe"
+  },
+  {
+    "id": 580,
+    "name": "fighter/flying_kick_soothe"
+  },
+  {
+    "id": 581,
+    "name": "fighter/flying_kick_taunt"
+  },
+  {
+    "id": 582,
+    "name": "fighter/kick_soothe"
+  },
+  {
+    "id": 583,
+    "name": "fighter/kick_taunt"
+  },
+  {
+    "id": 584,
+    "name": "fighter/ranged_attack_fast_persist_ice"
+  },
+  {
+    "id": 585,
+    "name": "fighter/result_accuracy"
+  },
+  {
+    "id": 586,
+    "name": "fighter/result_agility"
+  },
+  {
+    "id": 587,
+    "name": "fighter/result_debuff"
+  },
+  {
+    "id": 588,
+    "name": "fighter/result_divine"
+  },
+  {
+    "id": 589,
+    "name": "fighter/result_lifetap"
+  },
+  {
+    "id": 590,
+    "name": "fighter/result_notes"
+  },
+  {
+    "id": 591,
+    "name": "fighter/result_stealth"
+  },
+  {
+    "id": 592,
+    "name": "fighter/super_buff_divine"
+  },
+  {
+    "id": 593,
+    "name": "fighter/thrust_forward_soothe"
+  },
+  {
+    "id": 594,
+    "name": "fighter/wildswing_taunt"
+  },
+  {
+    "id": 595,
+    "name": "mage/black_fire_from_below_damage"
+  },
+  {
+    "id": 596,
+    "name": "mage/lash_darkness_damage"
+  },
+  {
+    "id": 597,
+    "name": "mage/sparks_updown_projectile"
+  },
+  {
+    "id": 598,
+    "name": "priest/blue_fire_from_below_damage"
+  },
+  {
+    "id": 599,
+    "name": "priest/brace_eidolon_green"
+  },
+  {
+    "id": 600,
+    "name": "priest/brace_eidolon_psyonic"
+  },
+  {
+    "id": 601,
+    "name": "priest/brace_eidolon_red"
+  },
+  {
+    "id": 602,
+    "name": "priest/evil_ward"
+  },
+  {
+    "id": 603,
+    "name": "priest/nuke_lightning_projectile_persist"
+  },
+  {
+    "id": 604,
+    "name": "fighter/attack_down_soothe"
+  },
+  {
+    "id": 605,
+    "name": "fighter/defensive_buff_anger"
+  },
+  {
+    "id": 606,
+    "name": "fighter/defensive_buff_enrage"
+  },
+  {
+    "id": 607,
+    "name": "fighter/feint_soothe"
+  },
+  {
+    "id": 608,
+    "name": "fighter/multiple_attack_03_flame"
+  },
+  {
+    "id": 609,
+    "name": "fighter/multiple_attack_03_soothe"
+  },
+  {
+    "id": 610,
+    "name": "fighter/multiple_attack_04_ice"
+  },
+  {
+    "id": 611,
+    "name": "fighter/multiple_attack_04_lightning"
+  },
+  {
+    "id": 612,
+    "name": "fighter/ranged_attack_fast_soothe"
+  },
+  {
+    "id": 613,
+    "name": "fighter/ranged_attack_persist_knocktoknees"
+  },
+  {
+    "id": 614,
+    "name": "fighter/ranged_attack_persist_soothe"
+  },
+  {
+    "id": 615,
+    "name": "fighter/ranged_attack_persist_taunt"
+  },
+  {
+    "id": 616,
+    "name": "fighter/shield_shove_flame"
+  },
+  {
+    "id": 617,
+    "name": "fighter/shield_shove_ice"
+  },
+  {
+    "id": 618,
+    "name": "fighter/super_buff_stealth"
+  },
+  {
+    "id": 619,
+    "name": "fighter/whirling_attack_ice"
+  },
+  {
+    "id": 620,
+    "name": "fighter/whirling_attack_soothe"
+  },
+  {
+    "id": 621,
+    "name": "fighter/wildswing_knocktoknees"
+  },
+  {
+    "id": 622,
+    "name": "fighter/wildswing_soothe"
+  },
+  {
+    "id": 623,
+    "name": "ho/ancient_wrath"
+  },
+  {
+    "id": 624,
+    "name": "ho/arcane_fury"
+  },
+  {
+    "id": 625,
+    "name": "ho/archaic_shackles"
+  },
+  {
+    "id": 626,
+    "name": "ho/archaic_shackles_b"
+  },
+  {
+    "id": 627,
+    "name": "ho/divine_blade"
+  },
+  {
+    "id": 628,
+    "name": "ho/divine_judgement"
+  },
+  {
+    "id": 629,
+    "name": "ho/scholars_insight"
+  },
+  {
+    "id": 630,
+    "name": "ho/storm_of_ancients"
+  },
+  {
+    "id": 631,
+    "name": "ho/thunder_slash"
+  },
+  {
+    "id": 632,
+    "name": "ho/tricksters_grasp"
+  },
+  {
+    "id": 641,
+    "name": "ho/bravos_dance"
+  },
+  {
+    "id": 642,
+    "name": "ho/crucible_of_life"
+  },
+  {
+    "id": 643,
+    "name": "ho/inspiring_piety"
+  },
+  {
+    "id": 644,
+    "name": "ho/shower_of_daggers"
+  },
+  {
+    "id": 645,
+    "name": "ho/soldiers_instinct"
+  },
+  {
+    "id": 646,
+    "name": "ho/trinity_divide"
+  },
+  {
+    "id": 647,
+    "name": "ho/ancients_embrace"
+  },
+  {
+    "id": 648,
+    "name": "ho/arcane_trickery"
+  },
+  {
+    "id": 649,
+    "name": "ho/heros_armor"
+  },
+  {
+    "id": 652,
+    "name": "mage/evil_heal"
+  },
+  {
+    "id": 653,
+    "name": "mage/ice_comet_slam_damage"
+  },
+  {
+    "id": 654,
+    "name": "mage/skull_limb_debuff"
+  },
+  {
+    "id": 655,
+    "name": "mage/skull_slam_damage"
+  },
+  {
+    "id": 663,
+    "name": "ho/shield_of_ancients"
+  },
+  {
+    "id": 664,
+    "name": "any/dragon_flight_fetters"
+  },
+  {
+    "id": 665,
+    "name": "any/drakota_fetters"
+  },
+  {
+    "id": 666,
+    "name": "ho/ancient_crucible"
+  },
+  {
+    "id": 667,
+    "name": "ho/natures_growth"
+  },
+  {
+    "id": 668,
+    "name": "ho/archaic_ruin"
+  },
+  {
+    "id": 669,
+    "name": "ho/crushing_anvil"
+  },
+  {
+    "id": 670,
+    "name": "ho/lucks_bite"
+  },
+  {
+    "id": 671,
+    "name": "ho/ringing_blow"
+  },
+  {
+    "id": 672,
+    "name": "ho/sky_cleave"
+  },
+  {
+    "id": 673,
+    "name": "ho/suffocating_wrath"
+  },
+  {
+    "id": 674,
+    "name": "ho/arcane_chalice"
+  },
+  {
+    "id": 675,
+    "name": "ho/blessing_of_faith"
+  },
+  {
+    "id": 676,
+    "name": "priest/spirit_of_the_stag"
+  },
+  {
+    "id": 677,
+    "name": "ho/ancient_demise"
+  },
+  {
+    "id": 678,
+    "name": "ho/arcane_enlightenment"
+  },
+  {
+    "id": 679,
+    "name": "ho/chalice_of_life"
+  },
+  {
+    "id": 680,
+    "name": "ho/crippling_shroud"
+  },
+  {
+    "id": 681,
+    "name": "ho/divine_trickery"
+  },
+  {
+    "id": 682,
+    "name": "ho/piercing_faith"
+  },
+  {
+    "id": 683,
+    "name": "ho/raging_sword"
+  },
+  {
+    "id": 684,
+    "name": "ho/breaking_faith"
+  },
+  {
+    "id": 687,
+    "name": "ho/verdant_trinity"
+  },
+  {
+    "id": 688,
+    "name": "ho/faiths_bulwark"
+  },
+  {
+    "id": 689,
+    "name": "ho/pasts_awakening"
+  },
+  {
+    "id": 690,
+    "name": "ho/strength_in_unity"
+  },
+  {
+    "id": 691,
+    "name": "ho/swindlers_gift"
+  },
+  {
+    "id": 692,
+    "name": "ho/swindlers_luck"
+  },
+  {
+    "id": 693,
+    "name": "ho/tricksters_grasp2"
+  },
+  {
+    "id": 694,
+    "name": "scout/drum_nofx"
+  },
+  {
+    "id": 695,
+    "name": "scout/guitar_nofx"
+  },
+  {
+    "id": 696,
+    "name": "scout/singing_nofx"
+  },
+  {
+    "id": 699,
+    "name": "ho/soldiers_gambit"
+  },
+  {
+    "id": 700,
+    "name": "ho/lucks_bite_2"
+  },
+  {
+    "id": 710,
+    "name": "ho/arcane_aegis"
+  },
+  {
+    "id": 711,
+    "name": "ho/arcane_salvation"
+  },
+  {
+    "id": 712,
+    "name": "ho/ardent_challenge"
+  },
+  {
+    "id": 713,
+    "name": "ho/capricious_strike"
+  },
+  {
+    "id": 714,
+    "name": "ho/celestial_bloom"
+  },
+  {
+    "id": 715,
+    "name": "ho/divine_nobility"
+  },
+  {
+    "id": 716,
+    "name": "ho/fervent_quickening"
+  },
+  {
+    "id": 717,
+    "name": "ho/grand_proclamation"
+  },
+  {
+    "id": 718,
+    "name": "ho/luminary_fate"
+  },
+  {
+    "id": 719,
+    "name": "ho/resonating_cascade"
+  },
+  {
+    "id": 720,
+    "name": "ho/tears_of_luclin"
+  },
+  {
+    "id": 721,
+    "name": "priest/ethereal_salve_result_spin"
+  },
+  {
+    "id": 722,
+    "name": "priest/ethereal_salve_result_spin_blue"
+  },
+  {
+    "id": 723,
+    "name": "priest/ethereal_salve_result_spin_fast"
+  },
+  {
+    "id": 724,
+    "name": "priest/ethereal_salve_result_spin_fast_blue"
+  },
+  {
+    "id": 725,
+    "name": "priest/ethereal_salve_result_spin_fast_green"
+  },
+  {
+    "id": 726,
+    "name": "priest/ethereal_salve_result_spin_fast_yellow"
+  },
+  {
+    "id": 727,
+    "name": "priest/ethereal_salve_result_spin_green"
+  },
+  {
+    "id": 728,
+    "name": "priest/ethereal_salve_result_spin_yellow"
+  },
+  {
+    "id": 729,
+    "name": "priest/ethereal_salve_spin"
+  },
+  {
+    "id": 730,
+    "name": "priest/ethereal_salve_spin_blue"
+  },
+  {
+    "id": 731,
+    "name": "priest/ethereal_salve_spin_fast"
+  },
+  {
+    "id": 732,
+    "name": "priest/ethereal_salve_spin_fast_blue"
+  },
+  {
+    "id": 733,
+    "name": "priest/ethereal_salve_spin_fast_green"
+  },
+  {
+    "id": 734,
+    "name": "priest/ethereal_salve_spin_fast_yellow"
+  },
+  {
+    "id": 735,
+    "name": "priest/ethereal_salve_spin_green"
+  },
+  {
+    "id": 736,
+    "name": "priest/ethereal_salve_spin_yellow"
+  },
+  {
+    "id": 737,
+    "name": "vampire/iceflame"
+  },
+  {
+    "id": 738,
+    "name": "vampire/lifetap_head_p2p"
+  },
+  {
+    "id": 739,
+    "name": "vampire/lifetap_heart_p2p"
+  },
+  {
+    "id": 740,
+    "name": "vampire/lioness_running"
+  },
+  {
+    "id": 741,
+    "name": "vampire/mana_cloak"
+  },
+  {
+    "id": 742,
+    "name": "vampire/power_fount"
+  },
+  {
+    "id": 743,
+    "name": "vampire/rainbow_blast_p2p"
+  },
+  {
+    "id": 744,
+    "name": "vampire/scorpion_attacking"
+  },
+  {
+    "id": 745,
+    "name": "vampire/shower_of_arrows_flaming_p2p"
+  },
+  {
+    "id": 746,
+    "name": "vampire/shower_of_arrows_p2p"
+  },
+  {
+    "id": 747,
+    "name": "vampire/shower_of_daggers_p2p"
+  },
+  {
+    "id": 748,
+    "name": "vampire/skeleton_bowing"
+  },
+  {
+    "id": 749,
+    "name": "vampire/skeleton_dancing"
+  },
+  {
+    "id": 750,
+    "name": "vampire/smoke_lifetap_p2p"
+  },
+  {
+    "id": 751,
+    "name": "vampire/smoke_p2p"
+  },
+  {
+    "id": 752,
+    "name": "vampire/soul_devour_p2p"
+  },
+  {
+    "id": 753,
+    "name": "vampire/spirit_descending"
+  },
+  {
+    "id": 754,
+    "name": "vampire/spirit_of_the_bat"
+  },
+  {
+    "id": 755,
+    "name": "vampire/stance_of_the_bat"
+  },
+  {
+    "id": 756,
+    "name": "vampire/swarm_of_bats"
+  },
+  {
+    "id": 757,
+    "name": "vampire/swarm_of_bats_p2p"
+  },
+  {
+    "id": 758,
+    "name": "scout/choral_rebuff"
+  },
+  {
+    "id": 759,
+    "name": "scout/eerie_sonata"
+  },
+  {
+    "id": 760,
+    "name": "scout/piercing_note"
+  },
+  {
+    "id": 761,
+    "name": "vampire/spirit_appearing"
+  },
+  {
+    "id": 762,
+    "name": "vampire/spirit_appearing_persist"
+  },
+  {
+    "id": 763,
+    "name": "vampire/spirit_ascending"
+  },
+  {
+    "id": 764,
+    "name": "scout/ballad_of_chivalry_gold"
+  },
+  {
+    "id": 765,
+    "name": "scout/ballad_of_chivalry_green"
+  },
+  {
+    "id": 766,
+    "name": "scout/ballad_of_chivalry_purple"
+  },
+  {
+    "id": 767,
+    "name": "scout/ballad_of_chivalry_red"
+  },
+  {
+    "id": 768,
+    "name": "scout/choral_rebuff_blue"
+  },
+  {
+    "id": 769,
+    "name": "scout/choral_rebuff_green"
+  },
+  {
+    "id": 770,
+    "name": "scout/choral_rebuff_red"
+  },
+  {
+    "id": 771,
+    "name": "vampire/devastation_fist"
+  },
+  {
+    "id": 772,
+    "name": "scout/choral_chains"
+  },
+  {
+    "id": 773,
+    "name": "vampire/corruptive_symbol_p2p"
+  },
+  {
+    "id": 774,
+    "name": "vampire/dark_whip"
+  },
+  {
+    "id": 775,
+    "name": "vampire/rainbow_circle_throw"
+  },
+  {
+    "id": 776,
+    "name": "vampire/skeleton_attacking"
+  },
+  {
+    "id": 777,
+    "name": "vampire/umbral_trap"
+  },
+  {
+    "id": 778,
+    "name": "vampire/green_cosmic_debuff_p2p"
+  },
+  {
+    "id": 779,
+    "name": "scout/wavey_song"
+  },
+  {
+    "id": 780,
+    "name": "any/plague"
+  },
+  {
+    "id": 781,
+    "name": "priest/brace_eidolon_aoe"
+  },
+  {
+    "id": 782,
+    "name": "priest/brace_eidolon_psyonic_aoe"
+  },
+  {
+    "id": 783,
+    "name": "priest/evil_ward_aoe"
+  },
+  {
+    "id": 784,
+    "name": "priest/sanctify_aoe"
+  },
+  {
+    "id": 785,
+    "name": "scout/choral_chains_green"
+  },
+  {
+    "id": 786,
+    "name": "scout/choral_chains_purple"
+  },
+  {
+    "id": 787,
+    "name": "scout/wavey_song_blue"
+  },
+  {
+    "id": 788,
+    "name": "scout/wavey_song_green"
+  },
+  {
+    "id": 789,
+    "name": "scout/wavey_song_purple"
+  },
+  {
+    "id": 790,
+    "name": "any/deadly_stench_aoe"
+  },
+  {
+    "id": 791,
+    "name": "mage/earthly_brand_aoe"
+  },
+  {
+    "id": 792,
+    "name": "mage/glacial_wall_aoe"
+  },
+  {
+    "id": 793,
+    "name": "mage/haste_aoe"
+  },
+  {
+    "id": 794,
+    "name": "mage/intelligence_aoe"
+  },
+  {
+    "id": 795,
+    "name": "mage/tremor_aoe"
+  },
+  {
+    "id": 796,
+    "name": "priest/bloodlust_aoe"
+  },
+  {
+    "id": 797,
+    "name": "priest/cactus_01_aoe"
+  },
+  {
+    "id": 798,
+    "name": "priest/crystal_shield_aoe"
+  },
+  {
+    "id": 799,
+    "name": "priest/verdant_genesis_aoe"
+  },
+  {
+    "id": 800,
+    "name": "priest/weakness_aoe"
+  },
+  {
+    "id": 801,
+    "name": "priest/wood_spikes_growing_aoe"
+  },
+  {
+    "id": 802,
+    "name": "any/grim_champion_aoe"
+  },
+  {
+    "id": 803,
+    "name": "any/sanction_of_merit_aoe"
+  },
+  {
+    "id": 804,
+    "name": "boss/pbae_disease_aoe"
+  },
+  {
+    "id": 805,
+    "name": "mage/color_shower_aoe"
+  },
+  {
+    "id": 806,
+    "name": "mage/darkness_skull_buff_aoe"
+  },
+  {
+    "id": 807,
+    "name": "mage/ot_lifetap_aoe"
+  },
+  {
+    "id": 808,
+    "name": "mage/shadow_summon_aoe"
+  },
+  {
+    "id": 809,
+    "name": "mage/teleporter_coalesce_aoe"
+  },
+  {
+    "id": 810,
+    "name": "mage/volatile_refuge_aoe"
+  },
+  {
+    "id": 811,
+    "name": "priest/bloodlust_2_aoe"
+  },
+  {
+    "id": 812,
+    "name": "priest/bull_stomping_aoe"
+  },
+  {
+    "id": 813,
+    "name": "priest/ghost_shield_aoe"
+  },
+  {
+    "id": 814,
+    "name": "priest/lion_attacking_aoe"
+  },
+  {
+    "id": 815,
+    "name": "priest/lion_roaring_aoe"
+  },
+  {
+    "id": 816,
+    "name": "priest/spirit_of_the_wolf_aoe"
+  },
+  {
+    "id": 817,
+    "name": "priest/tree_morph_aoe"
+  },
+  {
+    "id": 818,
+    "name": "priest/vines_root_control_aoe"
+  },
+  {
+    "id": 819,
+    "name": "priest/vitae_buff_heal_aoe"
+  },
+  {
+    "id": 820,
+    "name": "scout/startling_screech_aoe"
+  },
+  {
+    "id": 821,
+    "name": "fighter/attack_down_highdamage_aoe"
+  },
+  {
+    "id": 822,
+    "name": "fighter/charge_up_anger_aoe"
+  },
+  {
+    "id": 823,
+    "name": "fighter/defensive_buff_increase_aoe"
+  },
+  {
+    "id": 824,
+    "name": "fighter/defensive_buff_stealth_aoe"
+  },
+  {
+    "id": 825,
+    "name": "fighter/flying_kick_highdamage_aoe"
+  },
+  {
+    "id": 826,
+    "name": "fighter/offensive_buff_accuracy_aoe"
+  },
+  {
+    "id": 827,
+    "name": "fighter/offensive_buff_agility_aoe"
+  },
+  {
+    "id": 828,
+    "name": "fighter/offensive_buff_group_aoe"
+  },
+  {
+    "id": 829,
+    "name": "fighter/offensive_buff_increase_aoe"
+  },
+  {
+    "id": 830,
+    "name": "fighter/super_buff_anger_aoe"
+  },
+  {
+    "id": 831,
+    "name": "fighter/super_buff_avoidance_aoe"
+  },
+  {
+    "id": 832,
+    "name": "fighter/thrust_forward_debuff_aoe"
+  },
+  {
+    "id": 833,
+    "name": "fighter/whirling_attack_alt_aoe"
+  },
+  {
+    "id": 834,
+    "name": "fighter/whirling_attack_aoe"
+  },
+  {
+    "id": 835,
+    "name": "fighter/whirling_attack_debuff_aoe"
+  },
+  {
+    "id": 836,
+    "name": "fighter/whirling_attack_flame_aoe"
+  },
+  {
+    "id": 837,
+    "name": "fighter/whirling_attack_highdamage_aoe"
+  },
+  {
+    "id": 838,
+    "name": "fighter/whirling_attack_lightning_aoe"
+  },
+  {
+    "id": 839,
+    "name": "fighter/whirling_attack_persist_aoe"
+  },
+  {
+    "id": 840,
+    "name": "fighter/wildswing_lightning_aoe"
+  },
+  {
+    "id": 843,
+    "name": "any/coins_falling"
+  },
+  {
+    "id": 844,
+    "name": "adventure_pack_02/terra_armor_01"
+  },
+  {
+    "id": 845,
+    "name": "adventure_pack_02/terra_armor_01_aoe"
+  },
+  {
+    "id": 846,
+    "name": "adventure_pack_02/terra_armor_02"
+  },
+  {
+    "id": 847,
+    "name": "adventure_pack_02/terra_armor_02_aoe"
+  },
+  {
+    "id": 848,
+    "name": "adventure_pack_02/terra_armor_03"
+  },
+  {
+    "id": 849,
+    "name": "adventure_pack_02/terra_armor_03_aoe"
+  },
+  {
+    "id": 850,
+    "name": "expansion_01/force_buff_dust"
+  },
+  {
+    "id": 851,
+    "name": "expansion_01/force_buff_dust_break_wind"
+  },
+  {
+    "id": 852,
+    "name": "expansion_01/force_buff_smoke"
+  },
+  {
+    "id": 853,
+    "name": "expansion_01/force_buff_bones"
+  },
+  {
+    "id": 854,
+    "name": "expansion_01/force_buff_ice"
+  },
+  {
+    "id": 855,
+    "name": "adventure_pack_02/avalanche_01"
+  },
+  {
+    "id": 856,
+    "name": "adventure_pack_02/avalanche_01_aoe"
+  },
+  {
+    "id": 857,
+    "name": "adventure_pack_02/avalanche_02"
+  },
+  {
+    "id": 858,
+    "name": "adventure_pack_02/avalanche_02_aoe"
+  },
+  {
+    "id": 859,
+    "name": "adventure_pack_02/avalanche_03"
+  },
+  {
+    "id": 860,
+    "name": "adventure_pack_02/avalanche_03_aoe"
+  },
+  {
+    "id": 861,
+    "name": "npc/stone_curse"
+  },
+  {
+    "id": 862,
+    "name": "adventure_pack_02/coalescing_notes_gold"
+  },
+  {
+    "id": 863,
+    "name": "adventure_pack_02/coalescing_notes_green"
+  },
+  {
+    "id": 864,
+    "name": "adventure_pack_02/coalescing_notes_purple"
+  },
+  {
+    "id": 865,
+    "name": "adventure_pack_02/coalescing_notes_red"
+  },
+  {
+    "id": 866,
+    "name": "adventure_pack_02/coalescing_poison"
+  },
+  {
+    "id": 867,
+    "name": "adventure_pack_02/coalescing_steam"
+  },
+  {
+    "id": 868,
+    "name": "adventure_pack_02/coalescing_vapor"
+  },
+  {
+    "id": 869,
+    "name": "any/coins_falling_01"
+  },
+  {
+    "id": 870,
+    "name": "any/coins_falling_02"
+  },
+  {
+    "id": 871,
+    "name": "any/coins_falling_03"
+  },
+  {
+    "id": 872,
+    "name": "any/coins_falling_04"
+  },
+  {
+    "id": 873,
+    "name": "npc/flame_curse"
+  },
+  {
+    "id": 874,
+    "name": "vampire/devastation_fist_long"
+  },
+  {
+    "id": 875,
+    "name": "expansion_01/sharpened_focus_01"
+  },
+  {
+    "id": 876,
+    "name": "expansion_01/sharpened_focus_01_aoe"
+  },
+  {
+    "id": 877,
+    "name": "expansion_01/sharpened_focus_02"
+  },
+  {
+    "id": 878,
+    "name": "expansion_01/sharpened_focus_02_aoe"
+  },
+  {
+    "id": 879,
+    "name": "expansion_01/sharpened_focus_03"
+  },
+  {
+    "id": 880,
+    "name": "expansion_01/sharpened_focus_03_aoe"
+  },
+  {
+    "id": 881,
+    "name": "expansion_01/dragon_barakah_breath"
+  },
+  {
+    "id": 882,
+    "name": "expansion_01/dragon_siyamak_breath"
+  },
+  {
+    "id": 883,
+    "name": "adventure_pack_02/hand_grab_skeleton"
+  },
+  {
+    "id": 884,
+    "name": "adventure_pack_02/hand_grab_stone"
+  },
+  {
+    "id": 885,
+    "name": "expansion_01/call_of_power_blue"
+  },
+  {
+    "id": 886,
+    "name": "expansion_01/call_of_power_green"
+  },
+  {
+    "id": 887,
+    "name": "expansion_01/call_of_power_purple"
+  },
+  {
+    "id": 888,
+    "name": "expansion_01/call_of_power_red"
+  },
+  {
+    "id": 889,
+    "name": "expansion_01/cyclone_fire"
+  },
+  {
+    "id": 890,
+    "name": "expansion_01/firespitter"
+  },
+  {
+    "id": 891,
+    "name": "expansion_01/pet_victory"
+  },
+  {
+    "id": 892,
+    "name": "expansion_01/searing_sun_blue"
+  },
+  {
+    "id": 893,
+    "name": "expansion_01/searing_sun_red"
+  },
+  {
+    "id": 894,
+    "name": "expansion_01/searing_sun_yellow"
+  },
+  {
+    "id": 895,
+    "name": "expansion_01/morph_to_pet"
+  },
+  {
+    "id": 896,
+    "name": "expansion_01/morph_to_dragon_cast"
+  },
+  {
+    "id": 897,
+    "name": "expansion_01/morph_to_dragon_result"
+  },
+  {
+    "id": 898,
+    "name": "expansion_01/cyclone_rocks"
+  },
+  {
+    "id": 899,
+    "name": "expansion_01/cyclone_sand"
+  },
+  {
+    "id": 900,
+    "name": "expansion_01/cyclone_snow"
+  },
+  {
+    "id": 901,
+    "name": "npc/word_of_doom"
+  },
+  {
+    "id": 902,
+    "name": "npc/word_of_flame"
+  },
+  {
+    "id": 903,
+    "name": "npc/word_of_obedience"
+  },
+  {
+    "id": 904,
+    "name": "npc/word_of_silence"
+  },
+  {
+    "id": 905,
+    "name": "adventure_pack_02/gnoll_champion_buff"
+  },
+  {
+    "id": 906,
+    "name": "adventure_pack_02/underwater_burning"
+  },
+  {
+    "id": 907,
+    "name": "any/froglok_buff"
+  },
+  {
+    "id": 908,
+    "name": "expansion_01/dragon_barakah_breath_e3"
+  },
+  {
+    "id": 909,
+    "name": "expansion_01/morph_to_elf_cast"
+  },
+  {
+    "id": 910,
+    "name": "expansion_01/morph_to_elf_result"
+  },
+  {
+    "id": 911,
+    "name": "expansion_01/morph_to_dragon_cast_gold"
+  },
+  {
+    "id": 912,
+    "name": "expansion_01/morph_to_dragon_result_gold"
+  },
+  {
+    "id": 913,
+    "name": "expansion_01/morph_to_elf_cast_gold"
+  },
+  {
+    "id": 914,
+    "name": "expansion_01/morph_to_elf_result_gold"
+  },
+  {
+    "id": 915,
+    "name": "expansion_01/knighthood_bauble"
+  },
+  {
+    "id": 916,
+    "name": "expansion_01/scintillating_tapestry"
+  },
+  {
+    "id": 917,
+    "name": "expansion_01/scintillating_tapestry_blue_tint"
+  },
+  {
+    "id": 918,
+    "name": "expansion_01/scintillating_tapestry_gold_tint"
+  },
+  {
+    "id": 919,
+    "name": "expansion_01/scintillating_tapestry_green_tint"
+  },
+  {
+    "id": 920,
+    "name": "expansion_01/scintillating_tapestry_purple_tint"
+  },
+  {
+    "id": 921,
+    "name": "expansion_01/scintillating_tapestry_red_tint"
+  },
+  {
+    "id": 922,
+    "name": "mage/mez_projectile"
+  },
+  {
+    "id": 923,
+    "name": "expansion_01/serpents_intent_gold"
+  },
+  {
+    "id": 924,
+    "name": "expansion_01/serpents_intent_green"
+  },
+  {
+    "id": 925,
+    "name": "expansion_01/serpents_intent_purple"
+  },
+  {
+    "id": 926,
+    "name": "expansion_01/singing_drum"
+  },
+  {
+    "id": 927,
+    "name": "expansion_01/singing_flute"
+  },
+  {
+    "id": 928,
+    "name": "expansion_01/singing_lute"
+  },
+  {
+    "id": 929,
+    "name": "expansion_01/singing_sword"
+  },
+  {
+    "id": 930,
+    "name": "expansion_01/flash_flood_blue"
+  },
+  {
+    "id": 931,
+    "name": "expansion_01/flash_flood_gold"
+  },
+  {
+    "id": 932,
+    "name": "expansion_01/flash_flood_green"
+  },
+  {
+    "id": 933,
+    "name": "expansion_01/flash_flood_purple"
+  },
+  {
+    "id": 935,
+    "name": "expansion_01/desert_call_scarab"
+  },
+  {
+    "id": 936,
+    "name": "expansion_01/desert_call_scorpion"
+  },
+  {
+    "id": 937,
+    "name": "expansion_01/desert_call_spider"
+  },
+  {
+    "id": 938,
+    "name": "expansion_01/protection_of_faith_bat"
+  },
+  {
+    "id": 939,
+    "name": "expansion_01/protection_of_faith_drake"
+  },
+  {
+    "id": 940,
+    "name": "expansion_01/protection_of_faith_hawk"
+  },
+  {
+    "id": 941,
+    "name": "expansion_01/granted_wish_female_blue_yellow"
+  },
+  {
+    "id": 942,
+    "name": "expansion_01/granted_wish_female_green_gold"
+  },
+  {
+    "id": 943,
+    "name": "expansion_01/granted_wish_female_purple_red"
+  },
+  {
+    "id": 944,
+    "name": "expansion_01/granted_wish_male_blue_yellow"
+  },
+  {
+    "id": 945,
+    "name": "expansion_01/granted_wish_male_green_gold"
+  },
+  {
+    "id": 946,
+    "name": "expansion_01/granted_wish_male_purple_red"
+  },
+  {
+    "id": 947,
+    "name": "mage/shadow_summon_2"
+  },
+  {
+    "id": 948,
+    "name": "mage/shadow_summon_2_aoe"
+  },
+  {
+    "id": 949,
+    "name": "adventure_pack_02/fungusman_breath_attack"
+  },
+  {
+    "id": 950,
+    "name": "mage/nuke_lightning_no_rocks"
+  },
+  {
+    "id": 951,
+    "name": "npc/ice_curse"
+  },
+  {
+    "id": 952,
+    "name": "expansion_01/candlelight_vigil"
+  },
+  {
+    "id": 953,
+    "name": "expansion_01/candlelight_vigil_evil"
+  },
+  {
+    "id": 954,
+    "name": "expansion_01/tears_of_druzil_fire"
+  },
+  {
+    "id": 955,
+    "name": "expansion_01/tears_of_druzil_ice"
+  },
+  {
+    "id": 956,
+    "name": "expansion_01/tears_of_druzil_lightning"
+  },
+  {
+    "id": 957,
+    "name": "expansion_01/arena_stone_gaze"
+  },
+  {
+    "id": 958,
+    "name": "expansion_01/arena_water_whirlpool"
+  },
+  {
+    "id": 959,
+    "name": "expansion_01/arena_water_whirlpool_aoe"
+  },
+  {
+    "id": 960,
+    "name": "expansion_01/arena_water_rain_heal"
+  },
+  {
+    "id": 961,
+    "name": "expansion_01/arena_water_rain_heal_aoe"
+  },
+  {
+    "id": 962,
+    "name": "expansion_01/terrorantula_attack"
+  },
+  {
+    "id": 963,
+    "name": "expansion_01/fire_devil_attack1"
+  },
+  {
+    "id": 964,
+    "name": "expansion_01/fire_devil_attack2"
+  },
+  {
+    "id": 965,
+    "name": "expansion_01/harpy_blast_green"
+  },
+  {
+    "id": 966,
+    "name": "expansion_01/harpy_blast_orange"
+  },
+  {
+    "id": 967,
+    "name": "expansion_01/harpy_blast_purple"
+  },
+  {
+    "id": 968,
+    "name": "scout/ruse"
+  },
+  {
+    "id": 969,
+    "name": "expansion_01/arena_heal_blue"
+  },
+  {
+    "id": 970,
+    "name": "expansion_01/arena_heal_red"
+  },
+  {
+    "id": 971,
+    "name": "expansion_01/carry_blue_flag"
+  },
+  {
+    "id": 972,
+    "name": "expansion_01/carry_red_flag"
+  },
+  {
+    "id": 973,
+    "name": "test/design_test1"
+  },
+  {
+    "id": 974,
+    "name": "test/design_test2"
+  },
+  {
+    "id": 975,
+    "name": "test/design_test3"
+  },
+  {
+    "id": 976,
+    "name": "test/design_test4"
+  },
+  {
+    "id": 977,
+    "name": "test/design_test5"
+  },
+  {
+    "id": 978,
+    "name": "expansion_01/design/adept_summon"
+  },
+  {
+    "id": 979,
+    "name": "expansion_01/arena_voidbeast_attack"
+  },
+  {
+    "id": 980,
+    "name": "expansion_01/arena_voidbeast_smoke"
+  },
+  {
+    "id": 981,
+    "name": "priest/spirit_of_the_elephant"
+  },
+  {
+    "id": 982,
+    "name": "priest/spirit_of_the_elephant_aoe"
+  },
+  {
+    "id": 983,
+    "name": "fighter/charge_up_anger_no_anim"
+  },
+  {
+    "id": 984,
+    "name": "mage/prisms_sparkle_soul"
+  },
+  {
+    "id": 985,
+    "name": "mage/prisms_hex_clinging"
+  },
+  {
+    "id": 986,
+    "name": "mage/prisms_sphere"
+  },
+  {
+    "id": 987,
+    "name": "mage/fire_ball_projectile_long_trail"
+  },
+  {
+    "id": 988,
+    "name": "mage/fire_ball_projectile_long_trail_2"
+  },
+  {
+    "id": 989,
+    "name": "mage/fire_ball_projectile_long_trail_3"
+  },
+  {
+    "id": 990,
+    "name": "any/zombie_scare"
+  },
+  {
+    "id": 991,
+    "name": "any/camera_shake_3"
+  },
+  {
+    "id": 992,
+    "name": "any/camera_shake_2"
+  },
+  {
+    "id": 993,
+    "name": "design/ranged_attack_single_arrow"
+  },
+  {
+    "id": 994,
+    "name": "any/fireworks_burst_overhead"
+  },
+  {
+    "id": 995,
+    "name": "design/npc_shard_recovery"
+  },
+  {
+    "id": 996,
+    "name": "any/fireworks_ring_overhead"
+  },
+  {
+    "id": 997,
+    "name": "creatures/paw_trails_lion"
+  },
+  {
+    "id": 998,
+    "name": "creatures/prism_tube_trails_lion"
+  },
+  {
+    "id": 999,
+    "name": "creatures/sparkle_soul"
+  },
+  {
+    "id": 1000,
+    "name": "expansion_02/pestilence"
+  },
+  {
+    "id": 1001,
+    "name": "expansion_02/dragonbreath"
+  },
+  {
+    "id": 1002,
+    "name": "expansion_02/hypnosis"
+  },
+  {
+    "id": 1003,
+    "name": "expansion_02/juggernaut"
+  },
+  {
+    "id": 1004,
+    "name": "expansion_02/design/molotov_cocktail"
+  },
+  {
+    "id": 1005,
+    "name": "expansion_02/castigate"
+  },
+  {
+    "id": 1006,
+    "name": "expansion_02/jesters_gamble"
+  },
+  {
+    "id": 1007,
+    "name": "creatures/trace_spider"
+  },
+  {
+    "id": 1008,
+    "name": "creatures/trace_drake"
+  },
+  {
+    "id": 1009,
+    "name": "creatures/attack"
+  },
+  {
+    "id": 1010,
+    "name": "creatures/attack_damage"
+  },
+  {
+    "id": 1011,
+    "name": "creatures/attack_damage_alt"
+  },
+  {
+    "id": 1012,
+    "name": "creatures/attack_debuff"
+  },
+  {
+    "id": 1013,
+    "name": "creatures/attack_flame"
+  },
+  {
+    "id": 1014,
+    "name": "creatures/attack_highdamage"
+  },
+  {
+    "id": 1015,
+    "name": "creatures/attack_highdamage_aoe"
+  },
+  {
+    "id": 1016,
+    "name": "creatures/attack_knockdown"
+  },
+  {
+    "id": 1017,
+    "name": "creatures/attack_knocktoknees"
+  },
+  {
+    "id": 1018,
+    "name": "creatures/attack_lifetap"
+  },
+  {
+    "id": 1019,
+    "name": "creatures/attack_lightning"
+  },
+  {
+    "id": 1020,
+    "name": "creatures/attack_persist"
+  },
+  {
+    "id": 1021,
+    "name": "creatures/attack_soothe"
+  },
+  {
+    "id": 1022,
+    "name": "creatures/attack_stun"
+  },
+  {
+    "id": 1023,
+    "name": "creatures/attack_taunt"
+  },
+  {
+    "id": 1024,
+    "name": "creatures/trace_lion"
+  },
+  {
+    "id": 1025,
+    "name": "expansion_02/call_of_storms"
+  },
+  {
+    "id": 1026,
+    "name": "expansion_02/crazy_tube"
+  },
+  {
+    "id": 1027,
+    "name": "expansion_02/crazy_tube_iron"
+  },
+  {
+    "id": 1028,
+    "name": "expansion_02/mysticism"
+  },
+  {
+    "id": 1029,
+    "name": "expansion_02/fusion"
+  },
+  {
+    "id": 1030,
+    "name": "any/snowball_fight"
+  }
+]
