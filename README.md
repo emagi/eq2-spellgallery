@@ -16,12 +16,12 @@ To Run:
 
 1) Python Staging:
 
-cd C:/github/eq2-spellgallery
-python -m http.server 8000
+- cd C:/github/eq2-spellgallery
+- python -m http.server 8000
 
 2) NodeJS Staging:
 
-cd C:/github/eq2-spellgallery
-npx http-server -p 8000
+- cd C:/github/eq2-spellgallery
+- npx http-server -p 8000
 
 3) Access your local web server with your web browser of choice: http://localhost:8000/index_dof.html
